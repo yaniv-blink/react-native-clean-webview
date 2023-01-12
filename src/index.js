@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View,
-  WebView
 } from 'react-native';
 import readabilityJs from './readability';
 import cleanHtmlTemplate from './cleanHtmlTemplate';
 import cleanHtmlCss from './cleanHtmlCss';
 import scriptRemover from 'script_sanitize';
+import WebView from 'react-native-webview';
 
 export default class CleanWebView extends Component {
   constructor(props) {
